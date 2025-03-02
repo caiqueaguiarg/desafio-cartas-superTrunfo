@@ -58,9 +58,9 @@ int main(){
     printf("PIB:\n");
     scanf("%f", &PIBC2);
 
-    printf("Dados Primeira Carta: \n Carta: %d \n Estado: %c \n Codigo: %s \n Nome da Cidade: %s \n Populacao: %d \n Pontos Turisticos: %d \n Area: %f  km²\n PIB: %2.f bilhoes de reais", carta1, estadoC1, codigoCartaC1, nomeCidadeC1, populacaoC1, pontosTuristicosC1,areaKM2C1,PIBC1);
+    printf("Dados Primeira Carta: \n Carta: %d \n Estado: %c \n Codigo: %s \n Nome da Cidade: %s \n Populacao: %d \n Pontos Turisticos: %d \n Area: %3.ff  km²\n PIB: %3.f bilhoes de reais", carta1, estadoC1, codigoCartaC1, nomeCidadeC1, populacaoC1, pontosTuristicosC1,areaKM2C1,PIBC1);
 
-    printf("Dados Segunda Carta: \n Carta: %d \n Estado: %c \n Codigo: %s \n Nome da Cidade: %s \n Populacao: %d \n Pontos Turisticos: %d \n Area:%f km²\n PIB: %2.f bilhoes de reais", carta2, estadoC2, codigoCartaC2, nomeCidadeC2, populacaoC2, pontosTuristicosC2,areaKM2C2,PIBC2);
+    printf("Dados Segunda Carta: \n Carta: %d \n Estado: %c \n Codigo: %s \n Nome da Cidade: %s \n Populacao: %d \n Pontos Turisticos: %d \n Area:%3.f km²\n PIB: %3.f bilhoes de reais", carta2, estadoC2, codigoCartaC2, nomeCidadeC2, populacaoC2, pontosTuristicosC2,areaKM2C2,PIBC2);
 
     return 0;
 }
